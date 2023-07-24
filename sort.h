@@ -51,4 +51,22 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
+/*Include the swapping function to minimize
+*writing it in every function.
+*include sort.h header file that will
+*contain the function*/
+
+/**
+ * swap_ints - Swaps two elements in an array.
+ * @a: The first element to swap.
+ * @b: The second element to swap.
+ */
+/*void swap_ints(int *a, int *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}*/
 #endif /* SORT_H */
