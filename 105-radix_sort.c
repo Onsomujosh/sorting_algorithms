@@ -59,7 +59,7 @@ void radix_counting_sort(int *array, size_t size, int sig, int *buff)
  * @array: Array of ints.
  * @size: Size of the array.
  *
- * Description: Implements the LSD radix sort algorithm. 
+ * Description: Implements the LSD radix sort algorithm.
  * Prints the array each time the significant digit increase.
  */
 void radix_sort(int *array, size_t size)
